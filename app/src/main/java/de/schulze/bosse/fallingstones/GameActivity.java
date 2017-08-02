@@ -34,6 +34,7 @@ public class GameActivity extends Activity implements Drawer {
 		displaySize = new Point();
 		display.getSize(displaySize);
 		setEntities();
+		update();
 	}
 
 	private void setEntities() {
