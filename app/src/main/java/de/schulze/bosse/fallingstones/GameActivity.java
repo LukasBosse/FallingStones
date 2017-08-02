@@ -1,7 +1,6 @@
 package de.schulze.bosse.fallingstones;
 
 import android.app.Activity;
-import android.graphics.Bitmap;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import com.twicecircled.spritebatcher.Drawer;
