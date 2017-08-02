@@ -1,6 +1,7 @@
 package de.schulze.bosse.fallingstones;
 
 import android.app.Activity;
+import android.graphics.Bitmap;
 import android.opengl.GLSurfaceView;
 import android.os.Bundle;
 import com.twicecircled.spritebatcher.Drawer;
@@ -12,7 +13,7 @@ import javax.microedition.khronos.opengles.GL10;
 public class GameActivity extends Activity implements Drawer {
 
 	//Resource-Ids
-	private int[] resourceIds = { R.drawable.gamebackground};
+	private int[] resourceIds = { R.drawable.gameBackground };
 	//Background
 	private Background background;
 
