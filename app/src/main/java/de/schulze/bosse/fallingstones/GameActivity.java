@@ -17,6 +17,7 @@ public class GameActivity extends Activity implements Drawer {
 	//Background
 	private Background background;
 
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
