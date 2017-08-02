@@ -45,6 +45,7 @@ public class GameActivity extends Activity implements Drawer {
 		while(running) {
 			firstBackground.update();
 			secondBackground.update();
+			System.out.println("Background-Y: " + firstBackground.getY());
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {

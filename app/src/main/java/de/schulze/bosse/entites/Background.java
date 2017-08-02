@@ -12,6 +12,7 @@ public class Background extends Entity {
 		this.DISPLAY_HEIGHT = displayHeight;
 	}
 
+	//Update Background-Position
 	public void update() {
 		this.y += VERTICAL_SPEED;
 		if(y >= DISPLAY_HEIGHT) y = 0 - height;
