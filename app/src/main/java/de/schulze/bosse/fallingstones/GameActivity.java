@@ -19,7 +19,7 @@ public class GameActivity extends Activity implements Drawer {
 	private Display display;
 	private Point displaySize;
 	//Resource-Ids
-	private int[] resourceIds = { R.drawable.gameBackground};
+	private int[] resourceIds = { R.drawable.gamebackground};
 	//Background
 	private Background firstBackground;
 	private Background secondBackground;
