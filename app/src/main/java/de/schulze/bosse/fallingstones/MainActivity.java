@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             public void onSwipeTop() {
                 Toast.makeText(MainActivity.this, "top", Toast.LENGTH_SHORT).show();
-              //  Intent intent = new Intent(this, GameActivity.class);
+                //Intent intent = new Intent(, GameActivity.class);
               //  startActivity(intent);
 
             }
